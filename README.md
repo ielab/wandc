@@ -1,6 +1,6 @@
-# Water & Carbon
+# A WandB Water & Carbon Metering Plug-in
 
-A [wandb](https://github.com/wandb/wandb/) and [codecarbon](https://github.com/mlco2/codecarbon) wrapper that logs water and carbon consumption for your experiments on cloud.
+A [wandb](https://github.com/wandb/wandb/) and [codecarbon](https://github.com/mlco2/codecarbon) wrapper that logs on cloud the water and carbon consumption of your experiments.
 
 ## Installation
 
