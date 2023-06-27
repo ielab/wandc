@@ -46,15 +46,15 @@ def log_emissions(
             try:
                 fn_result = fn(*args, **kwargs)
             finally:
-                if wandb.run is not None:
-                    run = wandb.run
-                else:
-                    run = wandb.init(project=project_name, name=run_name)
-
                 logger.info(
                     "Graceful stopping: collecting and writing information. Please wait a few seconds..."
                 )
                 tracker.stop()
+
+                if wandb.run is not None:
+                    run = wandb.run
+                else:
+                    run = wandb.init(project=project_name, name=run_name)
 
                 emissions_data = tracker.final_emissions_data
                 columns = ['function']
