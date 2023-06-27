@@ -16,7 +16,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=[
-        "wandb>=0.15.4",
-        "codecarbon>=2.2.4",
+        "wandb",
+        "codecarbon",
     ]
 )
