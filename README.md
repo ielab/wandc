@@ -1,6 +1,6 @@
 # A WandB Water & Carbon Metering Plug-in
 
-A [wandb](https://github.com/wandb/wandb/) and [codecarbon](https://github.com/mlco2/codecarbon) wrapper that logs on cloud the water and carbon consumption of your experiments.
+A [wandb](https://github.com/wandb/wandb/) and [codecarbon](https://github.com/mlco2/codecarbon) wrapper that logs on cloud the water and carbon consumption of your experiments. This code is associated to the paper Zuccon, Scells, Zhuang. [Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models](https://ielab.io/green-ir), ICTIR 2023. For more of our [Green Information Retrieval]() research, visit the github repository [https://github.com/ielab/green-ir](https://github.com/ielab/green-ir).
 
 ## Installation
 
