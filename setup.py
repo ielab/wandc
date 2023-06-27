@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='wandc',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(),
     url='https://github.com/ielab/wandc',
     license='Apache 2.0',
